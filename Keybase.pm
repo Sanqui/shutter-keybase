@@ -100,6 +100,7 @@ sub upload {
         copy($upload_filename, "/keybase/public/".$username."/screenshots/".$filename);
          
         $self->{_links}->{'direct_link'} = 'https://'.$username.'.keybase.pub/screenshots/'.$filename;
+        $self->{_links}->{'signed_link'} = 'https://keybase.pub/'.$username.'/screenshots/'.$filename;
         
         #set success code (200)
         $self->{_links}{'status'} = 200;
