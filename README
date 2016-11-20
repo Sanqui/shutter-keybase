@@ -1,0 +1,8 @@
+This is a Shutter plugin for "uploading" screenshots to the Keybase
+filesystem (KBFS).  It simply copies the screenshot to your public
+/keybase folder and provides the keybase.pub URL.
+
+Instructions:
+* Copy Keybase.pm to /usr/share/shutter/resources/system/upload_plugins/upload/
+* Inside Shutter preferences, fill in your Keybase username and enter
+  anything in the password field (it will not be used)
